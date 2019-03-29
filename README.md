@@ -4,25 +4,25 @@ Using the following command to set up the vimrc
 ## Set up vimrc
 
 ```bash
-[VIM]
+# [VIM]
 git clone git@.... .vim
 
-[VUNDLE]
+# [VUNDLE]
 mkdir -p .vim/bundle
 cd .vim/bundle
 git clone https://github.com/gmarik/vundle.git vundle_src
 
-[VIMRC]
+# [VIMRC]
 ln -s ~/.vim/vimrc ~/.vimrc
 
-[PLUGIN]
+# [PLUGIN]
 vim +PluginInstall +qall
 ```
 
 ### Control the styles
 
 ```bash
-[EDITORCONDIG-VIM]
+# [EDITORCONDIG-VIM]
 ln -s ~/.vim/editorconfig ~/.editorconfig
 ```
 
