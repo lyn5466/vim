@@ -12,6 +12,9 @@ set number " show line numbers
 set foldmethod=marker " fold
 set nobackup " no .bak file
 
+" gitgutter
+set updatetime=100
+
 " scheme
 syntax on
 set background=dark
